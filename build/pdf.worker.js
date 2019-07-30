@@ -28684,7 +28684,7 @@ function (_Annotation) {
     if (data.fieldType === 'Sig') {
       data.fieldValue = null;
 
-      _this2.setFlags(_util.AnnotationFlag.HIDDEN);
+      // _this2.setFlags(_util.AnnotationFlag.HIDDEN);
     }
 
     return _this2;
